@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+}
+
+p {
+    font-size: larger;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 15px;
+    background-color: teal;
+  }
+
+.navbar-brand {
+    font-size: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar {
+    border:1px solid rgb(214, 214, 214);
+    margin: 0;
+    padding: 0px;
+    padding-left: 50px;
+}
+.navbar a:hover {
+    border-bottom: 3px solid teal;
+}  
+.navbar a.active {
+    border-bottom: 3px solid teal;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 45px;
+}
